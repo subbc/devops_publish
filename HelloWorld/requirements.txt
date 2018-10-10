@@ -1,0 +1,4 @@
+pymysql
+ansible==2.3.3
+Django==2.1.1
+pip

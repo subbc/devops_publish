@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+<title>运维发布publish平台页面</title>
+</head>
+<body>
+<h2>{{dj}}</h2>
+<h3>{{submit}}</h3>
+
+<form action="http://172.18.107.219:8000/a_index" method="post">
+    发布类型：<select name="stra_1">
+    <option selected="selected">git</option>
+    <option>composer</option>
+    </select>
+    <br />
+    发布站点: <select name="stra_2">
+    <option selected="selected">xfalse</option>
+    <option>www</option>
+    <option>api</option>
+    <option>manage</option>
+    <option>m</option>
+    <option>so</option>
+    </select>
+    <br />
+    是否发布: <select name="stra_3">
+    <option>yes</option>
+    <option selected="selected">no</option>
+    </select>
+    <br />
+    <input type="submit" value="submit提交" />
+</form>
+
+</body>
+</html>
